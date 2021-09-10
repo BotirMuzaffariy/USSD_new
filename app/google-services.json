@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "618643623183",
+    "project_id": "ussd-new",
+    "storage_bucket": "ussd-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618643623183:android:dbf1878d7a98c4b6f3027a",
+        "android_client_info": {
+          "package_name": "uz.lazycoder.ussdnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618643623183-5g4o33bcs391khfsvfnbd8aq2lr09u9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChFh3O7Ok9gGPjtRSs2n1YxIRvJfcie-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618643623183-5g4o33bcs391khfsvfnbd8aq2lr09u9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

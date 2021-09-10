@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uz.lazycoder.ussdnew.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/operatorFragment"
+        android:name="uz.lazycoder.ussdnew.ui.operator.OperatorFragment"
+        android:label="fragment_operator"
+        tools:layout="@layout/fragment_operator" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="uz.lazycoder.ussdnew.ui.news.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/bannerFragment"
+        android:name="uz.lazycoder.ussdnew.ui.banner.BannerFragment"
+        android:label="fragment_banner"
+        tools:layout="@layout/fragment_banner" />
+    <fragment
+        android:id="@+id/USSDFragment"
+        android:name="uz.lazycoder.ussdnew.ui.ussd.USSDFragment"
+        android:label="fragment_u_s_s_d"
+        tools:layout="@layout/fragment_u_s_s_d" />
+    <fragment
+        android:id="@+id/tariffFragment"
+        android:name="uz.lazycoder.ussdnew.ui.tariff.TariffFragment"
+        android:label="fragment_tariff"
+        tools:layout="@layout/fragment_tariff" />
+    <fragment
+        android:id="@+id/serviceFragment"
+        android:name="uz.lazycoder.ussdnew.ui.service.ServiceFragment"
+        android:label="fragment_service"
+        tools:layout="@layout/fragment_service" />
+    <fragment
+        android:id="@+id/minuteFragment"
+        android:name="uz.lazycoder.ussdnew.ui.minute.MinuteFragment"
+        android:label="fragment_minute"
+        tools:layout="@layout/fragment_minute" />
+    <fragment
+        android:id="@+id/mbFragment"
+        android:name="uz.lazycoder.ussdnew.ui.internet.InternetFragment"
+        android:label="fragment_mb"
+        tools:layout="@layout/fragment_internet" />
+    <fragment
+        android:id="@+id/smsFragment"
+        android:name="uz.lazycoder.ussdnew.ui.sms.SmsFragment"
+        android:label="fragment_sms"
+        tools:layout="@layout/fragment_sms" />
+
+</navigation>

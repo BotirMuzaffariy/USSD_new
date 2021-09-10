@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">USSD New</string>
+
+    <string name="tv_about">Biz haqimizda</string>
+    <string name="tv_about_the_app">Mazkur ilova Uzmobile operatori mijozlariga qulaylik yaratish maqsadida ishlab chiqilgan bo`lib, sizning shaxsiy xisob varaqangizga va raqamingizga hech qanday zararli tomoni yo`q</string>
+
+    <string name="contact_us">Biz bilan aloqa</string>
+    <string name="tv_contact_us_text">Email: uzmobiler@gmail.com</string>
+    <string name="tv_send_message">Xat jo`natish</string>
+
+    <string name="tv_telegram_channel">Telegram kanal</string>
+    <string name="tv_share">Ulashish</string>
+    <string name="tv_rate">Baholash</string>
+    <string name="tv_more_apps">Boshqa ilovalarimiz</string>
+
+    <string name="tv_balance">Balans</string>
+    <string name="tv_operator">Operator</string>
+    <string name="tv_news">Yangiliklar</string>
+    <string name="tv_settings">Sozlamalar</string>
+
+    <string name="tv_more_info">Batafsil</string>
+    <string name="tv_connect">Ulanish</string>
+    <string name="tv_call">Qo`ng`iroq qilish</string>
+
+    <string name="error_something_went_wrong">Xatolik ro`yberdi</string>
+    <string name="tv_per_denied">Agar siz ruxsatni rad qilsangiz, ushbu funksiyadan foydalana olmaysiz</string>
+    <string name="tv_per_forever_denied">Siz bu harakat uchun zarur bo`lgan ruxsatni majburan rad etdingiz. \nIltimos, ilova sozlamalarini oching, \"Ruxsatlar\" ga o`ting va unga ruxsat bering</string>
+
+    <string name="tv_connect_with_operator">Operator bilan bog`lanish</string>
+    <string name="share_link_text">Yangi USSD ilovasi -></string>
+    <string name="tv_national_operator">Milliy Operator</string>
+    <string name="tv_back">Orqaga</string>
+    <string name="tv_user_cost">Abonent to`lovi:</string>
+    <string name="tv_info">Ma\'lumot</string>
+    <string name="tv_sale">Aksiyalar</string>
+    <string name="tv_title_ussd">USSD kodlar</string>
+    <string name="tv_title_tariff">Tariflar</string>
+    <string name="tv_title_service">Xizmatlar</string>
+    <string name="tv_title_minute">Daqiqalar</string>
+    <string name="tv_title_mb">Internet paketlar</string>
+    <string name="tv_title_sms">SMS paketlar</string>
+    <string name="tv_ussd">USSD</string>
+    <string name="tv_tariff">Tarif</string>
+    <string name="tv_service">Xizmat</string>
+    <string name="tv_minute">Daqiqa</string>
+    <string name="tv_internet">Internet</string>
+    <string name="tv_sms">SMS</string>
+    <string name="tv_check_tariff">Tarifni tekshirish</string>
+    <string name="tv_minute_packages">Daqiqa to`plamlar</string>
+    <string name="tv_useful_exchange">Foydali almashinuv</string>
+    <string name="tv_internet_day_non_stop">Kunlik non-stop</string>
+    <string name="tv_internet_day">Kunlik</string>
+    <string name="tv_internet_month">Oylik</string>
+    <string name="tv_internet_tas_ix">TAS-IX uchun</string>
+    <string name="tv_internet_non_stop">Internet non-stop</string>
+    <string name="tv_sms_national">Xalqaro</string>
+    <string name="tv_check_traffic">Trafikni tekshirish</string>
+    <string name="tv_check_sms">SMS ni tekshirish</string>
+    <string name="tv_check_minute">Daqiqani tekshirish</string>
+    <string name="currency">so`m</string>
+    <string name="month">oy</string>
+    <string name="tv_try_again">Qayta urinish</string>
+    <string name="tv_requare_internet_first_time">Ilova ma\'lumotlarni olib kelishi uchun bir marta internetni yoqishingiz kerak (keyin talab qilinmaydi)</string>
+    <string name="data_loading">Ma\'lumotlar yuklanmoqda…</string>
+
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="12dp"
+    android:orientation="vertical">
+
+    <com.github.florent37.expansionpanel.ExpansionHeader
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:expansion_headerIndicator="@id/iv_arrow"
+        app:expansion_layout="@id/expansion_layout"
+        app:expansion_toggleOnClick="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--    code-->
+            <TextView
+                android:id="@+id/tv_ussd_code"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/bg_blue_round"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="-"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!--    description-->
+            <TextView
+                android:id="@+id/tv_desc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/text_color"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@id/tv_ussd_code"
+                app:layout_constraintEnd_toStartOf="@id/iv_arrow"
+                app:layout_constraintStart_toEndOf="@id/tv_ussd_code"
+                app:layout_constraintTop_toTopOf="@id/tv_ussd_code" />
+
+            <!--    arrow-->
+            <ImageView
+                android:id="@+id/iv_arrow"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/ic_expansion_header_indicator_grey_24dp"
+                app:layout_constraintBottom_toBottomOf="@id/tv_desc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:tint="@color/gray" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.github.florent37.expansionpanel.ExpansionHeader>
+
+    <com.github.florent37.expansionpanel.ExpansionLayout
+        android:id="@+id/expansion_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:expansion_expanded="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end|center_vertical"
+            android:orientation="vertical">
+
+            <!--    button-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_connect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:foreground="?selectableItemBackground"
+                app:cardBackgroundColor="@color/blue"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingHorizontal="28dp"
+                    android:paddingVertical="12dp"
+                    android:text="@string/tv_connect"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <!--    line-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:layout_marginTop="8dp"
+                android:alpha="0.7"
+                android:layout_marginLeft="88dp"
+                android:background="@color/gray" />
+
+        </LinearLayout>
+
+    </com.github.florent37.expansionpanel.ExpansionLayout>
+
+</LinearLayout>

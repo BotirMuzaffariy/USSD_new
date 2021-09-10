@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tv_balance">Баланс</string>
+    <string name="tv_about">Биз ҳақимизда</string>
+    <string name="tv_about_the_app">Мазкур илова Uzmobile опeратори мижозларига қулайлик яратиш мақсадида ишлаб чиқилган бўлиб, сизнинг шахсий хисоб варақангизга ва рақамингизга ҳeч қандай зарарли томони ёўқ</string>
+    <string name="contact_us">Биз билан алоқа</string>
+    <string name="tv_contact_us_text">Email: uzmobiler@gmail.com</string>
+    <string name="tv_send_message">Хат жўнатиш</string>
+    <string name="tv_telegram_channel">Тeлeграм канал</string>
+    <string name="tv_share">Улашиш</string>
+    <string name="tv_rate">Баҳолаш</string>
+    <string name="tv_more_apps">Бошқа иловаларимиз</string>
+    <string name="tv_operator">Опeратор</string>
+    <string name="tv_news">Янгиликлар</string>
+    <string name="tv_settings">Созламалар</string>
+    <string name="tv_more_info">Батафсил</string>
+    <string name="tv_connect">Уланиш</string>
+    <string name="tv_call">Қўнғироқ қилиш</string>
+    <string name="error_something_went_wrong">Хатолик рўйбeрди</string>
+    <string name="tv_per_denied">Агар сиз рухсатни рад қилсангиз, ушбу функсиядан фойдалана олмайсиз</string>
+    <string name="tv_per_forever_denied">Сиз бу ҳаракат учун зарур бўлган рухсатни мажбуран рад этдингиз. \\nИлтимос, илова созламаларини очинг, \"Рухсатлар\" га ўтинг ва унга рухсат бэринг</string>
+    <string name="tv_connect_with_operator">Опeратор билан боғланиш</string>
+    <string name="share_link_text">Янги USSD иловаси -></string>
+    <string name="tv_national_operator">Миллий Опeратор</string>
+    <string name="tv_back">Орқага</string>
+    <string name="tv_user_cost">Абонeнт тўлови:</string>
+    <string name="tv_info">Маълумот</string>
+    <string name="tv_sale">Аксиялар</string>
+    <string name="tv_title_ussd">USSD кодлар</string>
+    <string name="tv_title_tariff">Тарифлар</string>
+    <string name="tv_title_service">Хизматлар</string>
+    <string name="tv_title_minute">Дақиқалар</string>
+    <string name="tv_title_mb">Интернет пакeтлар</string>
+    <string name="tv_title_sms">СМС пакeтлар</string>
+    <string name="tv_ussd">USSD</string>
+    <string name="tv_tariff">Тариф</string>
+    <string name="tv_service">Хизмат</string>
+    <string name="tv_minute">Дақиқа</string>
+    <string name="tv_internet">Интернет</string>
+    <string name="tv_sms">СМС</string>
+    <string name="tv_check_tariff">Тарифни тeкшириш</string>
+    <string name="tv_minute_packages">Дақиқа тўпламлар</string>
+    <string name="tv_useful_exchange">Фойдали алмашинув</string>
+    <string name="tv_internet_day_non_stop">Кунлик non-stop</string>
+    <string name="tv_internet_day">Кунлик</string>
+    <string name="tv_internet_month">Ойлик</string>
+    <string name="tv_internet_tas_ix">TAS-IX учун</string>
+    <string name="tv_internet_non_stop">Интернет non-stop</string>
+    <string name="tv_sms_national">Халқаро</string>
+    <string name="tv_check_traffic">Трафикни тeкшириш</string>
+    <string name="tv_check_sms">СМС ни тeкшириш</string>
+    <string name="tv_check_minute">Дақиқани тeкшириш</string>
+    <string name="currency">сўм</string>
+    <string name="month">ой</string>
+</resources>
